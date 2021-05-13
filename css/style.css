@@ -1,0 +1,56 @@
+body{background:rgb(90,100,90);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+.tabuleiro{
+	border-collapse: collapse;
+	box-shadow: 3px 3px 5px #000;
+}
+table tr td{
+	width:70px;
+	height:65px;
+	/*border:2px solid #5F5D5D;	*/
+	background:white;
+}
+
+.bg-marrom{
+	background:rgb(150,100,60)
+}
+
+.bg-bege{
+	background:#f5f5dc;
+}
+
+
+.bg-azul{
+	background: rgb(50, 100, 255);
+}
+
+
+.player1, .player2{
+	width:50px;
+	height:50px;
+	border-radius:100%;
+	display:block;
+	margin:auto;
+	box-shadow: 0px 3px 5px #000 ;
+	border:2px solid #fff;
+	text-align: center;
+}
+
+.player1{
+	background: rgb(230,70,10);
+}
+
+.player2{
+	background: black;
+}
+.player1:hover, .player2:hover{
+	cursor:pointer;
+	opacity:0.8;
+}
